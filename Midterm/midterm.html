@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Web 114 Midterm</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="midterm.css">
+	</head>
+	<body>
+		<h1>Note that the percent calculation is a litle weird, for example 20 and 10 will return 2 for 200% of 10 and 3 and 10 will return .3 for 3%. It's not consistent but it makes sense.
+			<div id=function>
+				<label for="num1"><div class=calculator>Number 1:<div></label><input id="num1" type="number">
+				<label for="num2"><div class=calculator>Number 2:<div></label><input id="num2" type="number">
+				<p>Pick an operator:</p>
+					<select id="operators">  
+						<option value="add">+ add</option>
+						<option value="sub">- subtract</option>
+						<option value="per">% percent</option>
+						<option value="pow">** exponent</option>
+						<option value="multi">* multiply</option>
+						<option value="div">/ divide</option>
+						<option value="loose comparison">== loose comparison</option>
+						<option value="asignment">= assignment</option>
+					<select>
+            
+				<button id="calculate">Math Time!</button>
+				<p id="result">What's it going to be??? </p>	
+			</div>
+		<script src="midterm.js"></script> 
+	</body>
+</html>

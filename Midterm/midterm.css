@@ -1,0 +1,26 @@
+body {
+       background-color: #5a5a5a;
+       color: #ffffff;
+     }
+
+p 	{
+      font-weight: bold;
+      font-style: italic;
+      color: #ffffff;
+	}
+
+h1 {
+      font-family: sans-serif;
+      text-align: center;
+}
+
+
+
+.calculator {
+      font-weight: bold;
+}
+
+#function {
+      text-align: center;
+      padding-top: 5em;
+}
